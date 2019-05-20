@@ -1,3 +1,14 @@
 {
-    "version": "2.0"
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      // For specific function
+      "Function.NonProdAutoScaleHttp": "Debug",
+      "Function.NonProdAutoScaleTimer": "Debug",
+      // For all functions
+      "Function": "Information",
+      // Default settings, e.g. for host
+      "default": "None"
+    }
+  }
 }
